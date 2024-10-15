@@ -187,17 +187,17 @@ class _TasksFormWidgetState extends State<TasksFormWidget> {
                     children: [
                       Text("Préférée:", style: ThemesLibrary.kTextStyleInputDecoration),
                       Switch(
-                        thumbIcon: MaterialStateProperty.resolveWith<Icon?>(
-                          (Set<MaterialState> states) {
-                            if (states.contains(MaterialState.selected)) {
+                        thumbIcon: WidgetStateProperty.resolveWith<Icon?>(
+                          (Set<WidgetState> states) {
+                            if (states.contains(WidgetState.selected)) {
                               return const Icon(FontAwesomeIcons.solidHeart, color: ThemesLibrary.kColorDefaultRed);
                             }
                             return null;
                           },
                         ),
-                        trackColor: MaterialStateProperty.resolveWith<Color>(
-                          (Set<MaterialState> states) {
-                            if (states.contains(MaterialState.selected)) {
+                        trackColor: WidgetStateProperty.resolveWith<Color>(
+                          (Set<WidgetState> states) {
+                            if (states.contains(WidgetState.selected)) {
                               return ThemesLibrary.kColorDefaultRed;
                             }
                             return ThemesLibrary.kColorDefaultOnPrimary;
@@ -216,17 +216,17 @@ class _TasksFormWidgetState extends State<TasksFormWidget> {
                     children: [
                       Text("Status:", style: ThemesLibrary.kTextStyleInputDecoration),
                       Switch(
-                        thumbIcon: MaterialStateProperty.resolveWith<Icon?>(
-                          (Set<MaterialState> states) {
-                            if (states.contains(MaterialState.selected)) {
+                        thumbIcon: WidgetStateProperty.resolveWith<Icon?>(
+                          (Set<WidgetState> states) {
+                            if (states.contains(WidgetState.selected)) {
                               return const Icon(FontAwesomeIcons.unlock, color: ThemesLibrary.kColorDefaultGreen);
                             }
                             return null;
                           },
                         ),
-                        trackColor: MaterialStateProperty.resolveWith<Color>(
-                          (Set<MaterialState> states) {
-                            if (states.contains(MaterialState.selected)) {
+                        trackColor: WidgetStateProperty.resolveWith<Color>(
+                          (Set<WidgetState> states) {
+                            if (states.contains(WidgetState.selected)) {
                               return ThemesLibrary.kColorDefaultGreen;
                             }
                             return ThemesLibrary.kColorDefaultOnPrimary;

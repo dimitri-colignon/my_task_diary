@@ -4,7 +4,7 @@ Tutoriel en Français sur Dart, SDK Flutter, state management Provider et base d
 
 ## Informations
 
-Le cours de cette application se trouvera bientôt sur ma [page youtube](https://www.youtube.com/@dimitricolignon)
+Le cours de cette application se trouvera bientôt sur ma [page youtube](https://www.youtube.com/@DColignon)
 
 ## Status
 
